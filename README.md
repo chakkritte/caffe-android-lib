@@ -5,7 +5,7 @@ Porting [caffe](https://github.com/BVLC/caffe) to android platform
 
 ## Build
 ```
-git clone --recursive https://github.com/sh1r0/caffe-android-lib.git
+git clone --recursive https://github.com/chakkritte/caffe-android-lib.git
 cd caffe-android-lib
 ./build.py $(NDK_PATH)
 ```
