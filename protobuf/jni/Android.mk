@@ -33,6 +33,11 @@ src/google/protobuf/stubs/strutil.cc \
 src/google/protobuf/stubs/stringprintf.cc \
 src/google/protobuf/stubs/substitute.cc
 
+ifeq ($(TARGET_ARCH_ABI),x86)
+COMPILER_SRC_FILES := \
+src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
+endif
+
 # C++ full library
 # =======================================================
 #include $(CLEAR_VARS)
