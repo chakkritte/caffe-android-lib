@@ -13,15 +13,15 @@ PROTOBUF_ARCHIVE = 'protobuf-{0}.tar.bz2'.format(PROTOBUF_VER)
 PROTOBUF_URL = 'https://protobuf.googlecode.com/files/{0}'.format(PROTOBUF_ARCHIVE)
 PROTOBUF_DIR = 'protobuf-{0}'.format(PROTOBUF_VER)
 
-EIGEN_VER = '3.2.4'
+EIGEN_VER = '3.2.6'
 EIGEN_ARCHIVE = '{0}.tar.bz2'.format(EIGEN_VER)
 EIGEN_URL = 'http://bitbucket.org/eigen/eigen/get/{0}'.format(EIGEN_ARCHIVE)
-EIGEN_TEMP_DIR = 'eigen-eigen-10219c95fe65'
+EIGEN_TEMP_DIR = 'eigen-eigen-c58038c56923'
 
-OPENCV_VER = '2.4.9'
+OPENCV_VER = '2.4.11'
 OPENCV_ARCHIVE = 'OpenCV-{0}-android-sdk.zip'.format(OPENCV_VER)
 OPENCV_URL = 'http://sourceforge.net/projects/opencvlibrary/files/opencv-android/{0}/{1}/download'.format(OPENCV_VER, OPENCV_ARCHIVE)
-OPENCV_TEMP_DIR = 'OpenCV-{0}-android-sdk'.format(OPENCV_VER)
+OPENCV_TEMP_DIR = 'OpenCV-android-sdk'.format(OPENCV_VER)
 
 
 def setup():
