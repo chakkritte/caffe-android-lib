@@ -34,8 +34,12 @@ src/google/protobuf/stubs/stringprintf.cc \
 src/google/protobuf/stubs/substitute.cc
 
 ifeq ($(TARGET_ARCH_ABI),x86)
-COMPILER_SRC_FILES := \
-src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
+	COMPILER_SRC_FILES := $(COMPILER_SRC_FILES) \
+										 src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
+endif
+ifeq ($(TARGET_ARCH_ABI),x86_64)
+	COMPILER_SRC_FILES := $(COMPILER_SRC_FILES) \
+										 src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
 endif
 
 # C++ full library
