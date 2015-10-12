@@ -18,7 +18,7 @@ cd caffe-android-lib
 	adb shell mkdir -p /sdcard/caffe_mobile/
 	adb push caffe-mobile/jni/caffe/models/bvlc_reference_caffenet/ /sdcard/caffe_mobile/bvlc_reference_caffenet/
 	```
-- copy `caffe-mobile/libs/armeabi-v7a/*.so` to your jni lib directory
+- copy `caffe-mobile/libs/x86/*.so` to your jni lib directory
 - in your main activity
 
 	```java
