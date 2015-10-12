@@ -1,4 +1,4 @@
-Caffe-Android-Lib
+Caffe-Android-Lib for x86
 ===============
 ## Goal
 Porting [caffe](https://github.com/BVLC/caffe) to android platform
